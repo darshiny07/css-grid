@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+
+
+    <style>
+.container{
+    display: grid;
+  /* grid-template-columns: 2.5fr 2.5fr 2.5fr ; */
+  /* grid-template-columns: 200px 200px 200px auto; */
+  grid-template-columns: minmax(200px, 1fr)1fr 1fr;
+  column-gap:20px;
+  row-gap:20px;
+}
+.grid-item{
+    background-color: bisque;
+    
+
+}
+    </style>
+</head>
+<body>
+    <h1>Learning Grid system</h1>
+<div class="container">
+    <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus aperiam dicta, nobis nam consequatur, explicabo nemo sequi reprehenderit deleniti laborum ut dolorum enim pariatur veritatis suscipit facilis quaerat voluptates ipsam.</div>
+    <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ipsum ab delectus odit voluptatum assumenda ducimus cupiditate, deserunt laboriosam necessitatibus iste sunt. Est autem debitis impedit quos assumenda placeat necessitatibus.</div>
+    <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, tempore. Iure neque odio non facere atque illo eveniet, temporibus sapiente veritatis officia, itaque voluptate nulla deleniti a repudiandae expedita minus!</div>
+    <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, provident placeat asperiores dolorum assumenda voluptas praesentium illo odio nobis, mollitia magni maiores facere velit cumque reprehenderit, nesciunt distinctio omnis libero.</div>
+</div>
+</body>
+</html>
