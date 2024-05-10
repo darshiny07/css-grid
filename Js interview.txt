@@ -48,3 +48,33 @@ Use "do...while" loop when you want to execute the code block at least once befo
 
 8.EVENT HANDLING IN JAVASCRIPT
 *Event handling in JavaScript allows you to respond to user interactions with web pages, such as clicks, mouse movements, keyboard inputs, and other actions. It enables you to create interactive and dynamic web applications by executing specific code in response to these events.
+
+9. WHAT ARE SELECTORS IN JAVASCRIPT?
+-get element by classname()
+-getElement by Idname()
+-getElement by Tagname()
+-querySelector()
+-querySelecotrAll()
+
+10.WHAT IS THE DIFFERENCE BETWEEN GETELEMENT BY ID & GET ELEMENT BY CLASS?
+
+-getElementById: This method selects a single element based on its unique ID attribute. Since IDs are unique within an HTML document, getElementById returns only one element.
+-getElementsByClassName: This method selects multiple elements based on a shared class name. It returns a collection of elements (a NodeList) that have the specified class. There could be multiple elements with the same class name, so it returns a collection. 
+
+11.WHAT IS FUNCTION AND TYPES OF FUNCTION ?
+-fUNCTION IS A BLOCK OF REUSABLE CODE , IT PERFORMS A SPECIFIC TASK funtion are fundamental building block in javascript.
+TYPES :
+(i).Function Declaration
+defined a function name using 'function' keyword. They can be called before they are declared .
+(ii)Function expression 
+  Function expressions define a function as part of an expression, typically by assigning it to a variable. They are not hoisted.
+(iii)Arrow Function
+  Arrow functions provide a concise syntax for writing functions. 
+(iv)Anonymous Functions:
+Annonymous function are without name they can be declared using fucntion expression.
+(v) Immediately invoked function:
+IIFEs are functions that are executed immediately after they are defined. They are typically used to create a separate scope and avoid polluting the global namespace.
+
+
+12.WHAT IS HOISTING IN JAVASCRIPT?
+--Hoisting in javascript behavior where the variable and function and moved to the top of their containing scope during the compilation phase.
