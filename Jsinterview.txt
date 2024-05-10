@@ -1,0 +1,80 @@
+1.What is javascript?
+*Javacript is a light weight scripting language .
+*it developed by Brendan Eich at Netscape in 1995.
+*commonly used by web developers to add dynamic interactions to web pages, applications, servers, and even games.
+*its runs on the browser,the also programming language because we used algoritham and data structure.
+*it is client side used , by the help of node.js server side.
+
+2.WHAT ARE THE DATA TYPE IN JAVASCRIPT AND WHAT IS PRIMITIVE DATA TYPE?
+*number
+*string
+*Boolean
+*undifined
+*null
+*symbol
+
+3.REFERENCE DATA TYPE?
+*Array
+*object
+*function
+
+4.WHAT IS THE DIFFERENC EBETWEEN PRIMITIVE DATA TYPE AND REFERENCE TYPE
+*PRIMITIVE :
+-stored by value : stored directly in the variable's memory location.
+-Immutable: Primitive data types are immutable, meaning that their values cannot be changed after they are created.
+*REFERENCE :
+-Stored by Reference: Reference data types are stored as a reference to a location in memory. 
+-Mutable: Reference data types are mutable, meaning their values can be modified after they are created. Modifying a reference value affects all references to that value.
+
+5.WHAT ARE ARRAY ,FUNTION AND OBJECT ?
+*ARRAY - is a data structure used to store multiple values in single variable.can hold any data types.it is mutable values are changed.Array having various methods accessing element push(),pop()
+*FUNCTION - fun are block of reusable code ,it performs a specific task when its called or self invoked.
+*OBJECT - object is a collection of key-value pairs .each key is string each value is any data type . Objects are mutable.
+
+6.WHAT IS SCOPE IN JAVASCRIPT ?
+*scope refers to the visibility and accessibility of variables and functions within different parts of a program.
+-Two main scope 
+*Global scope
+-Variables and functions declared outside of any function or block have global scope.
+-Global variables and functions are accessible from anywhere within the entire JavaScript program, including inside functions and blocks.
+*Local scope
+-Variables and functions declared within a function or block have local scope.
+Local variables and functions are accessible only within the function or block in which they are declared. They are not visible from outside that function or block.
+
+7.WHAT IS LOOP ?AND LOOP TYPES 
+-Use "for" loop when you know the number of iterations beforehand or when you need more control over the loop variable.
+Use "while" loop when you don't know the number of iterations beforehand or when you want to loop until a specific condition is met.
+Use "do...while" loop when you want to execute the code block at least once before checking the condition for further iterations.
+
+8.EVENT HANDLING IN JAVASCRIPT
+*Event handling in JavaScript allows you to respond to user interactions with web pages, such as clicks, mouse movements, keyboard inputs, and other actions. It enables you to create interactive and dynamic web applications by executing specific code in response to these events.
+
+9. WHAT ARE SELECTORS IN JAVASCRIPT?
+-get element by classname()
+-getElement by Idname()
+-getElement by Tagname()
+-querySelector()
+-querySelecotrAll()
+
+10.WHAT IS THE DIFFERENCE BETWEEN GETELEMENT BY ID & GET ELEMENT BY CLASS?
+
+-getElementById: This method selects a single element based on its unique ID attribute. Since IDs are unique within an HTML document, getElementById returns only one element.
+-getElementsByClassName: This method selects multiple elements based on a shared class name. It returns a collection of elements (a NodeList) that have the specified class. There could be multiple elements with the same class name, so it returns a collection. 
+
+11.WHAT IS FUNCTION AND TYPES OF FUNCTION ?
+-fUNCTION IS A BLOCK OF REUSABLE CODE , IT PERFORMS A SPECIFIC TASK funtion are fundamental building block in javascript.
+TYPES :
+(i).Function Declaration
+defined a function name using 'function' keyword. They can be called before they are declared .
+(ii)Function expression 
+  Function expressions define a function as part of an expression, typically by assigning it to a variable. They are not hoisted.
+(iii)Arrow Function
+  Arrow functions provide a concise syntax for writing functions. 
+(iv)Anonymous Functions:
+Annonymous function are without name they can be declared using fucntion expression.
+(v) Immediately invoked function:
+IIFEs are functions that are executed immediately after they are defined. They are typically used to create a separate scope and avoid polluting the global namespace.
+
+
+12.WHAT IS HOISTING IN JAVASCRIPT?
+--Hoisting in javascript behavior where the variable and function and moved to the top of their containing scope during the compilation phase.
